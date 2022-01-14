@@ -1,0 +1,255 @@
+
+.special-offer{
+    /* border: 1px solid red; */
+    background: url(../images/Background.png) no-repeat center center/cover;
+    padding: 50px 0px;
+}
+
+.special-offer .inner-offer-section{
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid lime; */
+}
+.special-offer #offer-left{
+    background: #ddc57c;
+}
+.inner-offer-section .offer-title{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.inner-offer-section .offer-title .offer-box{
+    /* border: 1px solid blue; */
+    margin: 0px;
+    padding: 5px 20px;
+    border-radius: 100px;
+    text-transform:uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background: #424242;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.inner-offer-section .offer-title1{
+    font-size: 120px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0px;
+    color: #424242;
+}
+.inner-offer-section .offer-title2{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0px;
+    text-align: center;
+    color: #424242;
+}
+.inner-offer-section .offer-img{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+.inner-offer-section .offer-img img{
+    width: 100%;
+}
+
+@media (min-width:279px) and (max-width:319px){
+    .inner-offer-section .offer-title{
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .inner-offer-section .offer-title .offer-box{
+        /* border: 1px solid blue; */
+        margin: 0px;
+        padding: 5px 20px;
+        border-radius: 100px;
+        text-transform:uppercase;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        background: #424242;
+        font-family: 'Montserrat', sans-serif;
+    
+    }
+    .inner-offer-section .offer-title1{
+        font-size: 80px;
+        font-weight: 900;
+        text-align: center;
+        margin: 0px;
+        color: #424242;
+        margin: 0px;
+    }
+    .inner-offer-section .offer-title2{
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0px 0px 25px 0px;
+        text-align: center;
+        color: #424242;
+    }
+
+
+}
+
+@media (min-width:320px) and (max-width:480px){
+    .inner-offer-section .offer-title{
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .inner-offer-section .offer-title .offer-box{
+        /* border: 1px solid blue; */
+        margin: 0px;
+        padding: 5px 20px;
+        border-radius: 100px;
+        text-transform:uppercase;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        background: #424242;
+        font-family: 'Montserrat', sans-serif;
+    
+    }
+    .inner-offer-section .offer-title1{
+        font-size: 100px;
+        font-weight: 900;
+        text-align: center;
+        margin: 0px;
+        color: #424242;
+        margin: 0px;
+    }
+    .inner-offer-section .offer-title2{
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0px 0px 35px 0px;
+        text-align: center;
+        color: #424242;
+    }
+
+
+}
+
+@media (min-width:481px) and (max-width:767px){
+    .inner-offer-section .offer-title{
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .inner-offer-section .offer-title .offer-box{
+        /* border: 1px solid blue; */
+        margin: 0px;
+        padding: 5px 20px;
+        border-radius: 100px;
+        text-transform:uppercase;
+        font-size: 17px;
+        font-weight: 600;
+        color: #fff;
+        background: #424242;
+        font-family: 'Montserrat', sans-serif;
+    
+    }
+    .inner-offer-section .offer-title1{
+        font-size: 105px;
+        font-weight: 900;
+        text-align: center;
+        margin: 0px;
+        color: #424242;
+        margin: 0px;
+    }
+    .inner-offer-section .offer-title2{
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0px 0px 35px 0px;
+        text-align: center;
+        color: #424242;
+    }
+
+
+}
+
+@media (min-width:768px) and (max-width:992px){
+    .inner-offer-section .offer-title{
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .inner-offer-section .offer-title .offer-box{
+        /* border: 1px solid blue; */
+        margin: 0px;
+        padding: 5px 20px;
+        border-radius: 100px;
+        text-transform:uppercase;
+        font-size: 17px;
+        font-weight: 600;
+        color: #fff;
+        background: #424242;
+        font-family: 'Montserrat', sans-serif;
+    
+    }
+    .inner-offer-section .offer-title1{
+        font-size: 105px;
+        font-weight: 900;
+        text-align: center;
+        margin: 0px;
+        color: #424242;
+        margin: 0px;
+    }
+    .inner-offer-section .offer-title2{
+        font-size: 22px;
+        font-weight: 500;
+        margin: 0px 0px 25px 0px;
+        text-align: center;
+        color: #424242;
+    }
+
+
+}
+@media (min-width:993px) and (max-width:1075px){
+    .inner-offer-section .offer-title{
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 45px;
+    }
+    .inner-offer-section .offer-title .offer-box{
+        /* border: 1px solid blue; */
+        margin: 0px;
+        padding: 5px 20px;
+        border-radius: 100px;
+        text-transform:uppercase;
+        font-size: 17px;
+        font-weight: 600;
+        color: #fff;
+        background: #424242;
+        font-family: 'Montserrat', sans-serif;
+    
+    }
+    .inner-offer-section .offer-title1{
+        font-size: 90px;
+        font-weight: 900;
+        text-align: center;
+        margin: 0px;
+        color: #424242;
+        margin: 0px;
+    }
+    .inner-offer-section .offer-title2{
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0px 0px 25px 0px;
+        text-align: center;
+        color: #424242;
+    }
+
+
+}

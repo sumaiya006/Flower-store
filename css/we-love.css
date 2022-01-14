@@ -1,0 +1,250 @@
+.we-love-section{
+    /* border: 1px solid red; */
+    padding: 80px 0px;
+    background: url(../images/Background.png);
+}
+.we-love-section .inner-we-love-section{
+    /* border: 1px solid blue; */
+    margin: 0px;
+    padding: 0px;
+}
+.inner-we-love-section .we-love-image-box{
+    /* border: 1px solid aqua; */
+}
+.inner-we-love-section .we-love-image-box img{
+    /* border: 1px solid aqua; */
+    width: 100%;
+}
+.inner-we-love-section .we-love-text-area{
+    /* border: 1px solid orange; */
+    padding: 200px 0px 30px 110px;
+}
+/* .inner-we-love-section .we-love-text-area .text-box{
+    border: 1px solid lime;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.we-love-text-area .we-love-text1{
+    /* border: 1px solid blue; */
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #484a4b;
+    width: 90%;
+}
+.we-love-text-area .we-love-text2{
+    /* border: 1px solid red; */
+    font-size: 20px;
+    color: #7e633e;
+    /* width: 80%; */
+    font-weight: 400;
+}
+
+.we-love-text-area .btn{
+    font-size: 12px;
+    font-weight: 700;
+    background: #454545;
+    color: #fff;
+    border-radius: 30px;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}
+.we-love-text-area .btn-light:hover, .we-love-text-area .btn-light:focus{
+    background: transparent;
+    color: #7e633e ;
+}
+
+
+@media (min-width:279px) and (max-width:319px){
+
+    .we-love-section{
+        padding: 10px 0px;
+        background: url(../images/Background.png);
+    }
+    .inner-we-love-section .we-love-text-area{
+        padding: 20px 10px 10px 10px;
+        text-align: center;
+    }
+    .we-love-text-area .we-love-text1{
+        /* border: 1px solid blue; */
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+        color: #484a4b;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+    .we-love-text-area .we-love-text2{
+        /* border: 1px solid red; */
+        font-size: 16px;
+        color: #7e633e;
+        /* width: 80%; */
+        font-weight: 400;
+        margin-top: 10px;
+    }
+ 
+    
+}
+
+@media (min-width:320px) and (max-width:480px){
+
+    .we-love-section{
+    
+        padding: 30px 0px;
+        background: url(../images/Background.png);
+    }
+    .inner-we-love-section .we-love-text-area{
+       
+        padding: 20px 10px 10px 10px;
+        text-align: center;
+    }
+    .we-love-text-area .we-love-text1{
+        /* border: 1px solid blue; */
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+        color: #484a4b;
+        text-align: center;
+        margin: 0px;
+        width: 100%;
+    }
+    .we-love-text-area .we-love-text2{
+        /* border: 1px solid red; */
+        font-size: 16px;
+        color: #7e633e;
+        /* width: 80%; */
+        font-weight: 400;
+        margin-top: 10px;
+    }
+ 
+    
+}
+@media (min-width:481px) and (max-width:767px){
+
+    .we-love-section{
+        padding: 30px 0px;
+        background: url(../images/Background.png);
+    }
+    .inner-we-love-section .we-love-text-area{
+        /* border: 1px solid red; */
+        padding: 20px 0px 10px 0px;
+        text-align: center;
+    }
+    .we-love-text-area .we-love-text1{
+        /* border: 1px solid blue; */
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 600;
+        color: #484a4b;
+        /* text-align: center; */
+        margin: 0px;
+        width: 100%;
+    }
+    .we-love-text-area .we-love-text2{
+        /* border: 1px solid red; */
+        font-size: 16px;
+        color: #7e633e;
+        /* width: 80%; */
+        font-weight: 400;
+        margin-top: 10px;
+    }
+ 
+    
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+    .we-love-section{
+        padding: 30px 0px;
+        background: url(../images/Background.png);
+    }
+    .inner-we-love-section .we-love-text-area{
+        padding: 50px 0px 10px 0px;
+        text-align: center;
+    }
+    .we-love-text-area .we-love-text1{
+        /* border: 1px solid blue; */
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 600;
+        color: #484a4b;
+        text-align: center;
+        margin: 0px;
+        width: 100%;
+    }
+    .we-love-text-area .we-love-text2{
+        /* border: 1px solid red; */
+        font-size: 16px;
+        color: #7e633e;
+        /* width: 80%; */
+        font-weight: 400;
+        margin-top: 10px;
+    }
+ 
+    
+}
+
+
+@media (min-width:992px) and (max-width:1023px){
+
+    .we-love-section{
+        padding: 30px 0px;
+        background: url(../images/Background.png);
+    }
+    .inner-we-love-section .we-love-text-area{
+        padding: 150px 0px 10px 70px;
+        /* text-align: center; */
+    }
+    .we-love-text-area .we-love-text1{
+        /* border: 1px solid blue; */
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 600;
+        color: #484a4b;
+        /* text-align: center; */
+        margin: 0px;
+    }
+    .we-love-text-area .we-love-text2{
+        /* border: 1px solid red; */
+        font-size: 17px;
+        color: #7e633e;
+        /* width: 80%; */
+        font-weight: 400;
+        margin-top: 10px;
+    }
+ 
+    
+}
+
+@media (min-width:1024px) and (max-width:1075px){
+
+    .we-love-section{
+        padding: 30px 0px;
+        background: url(../images/Background.png);
+    }
+    .inner-we-love-section .we-love-text-area{
+        padding: 150px 0px 10px 80px;
+        /* text-align: center; */
+    }
+    .we-love-text-area .we-love-text1{
+        /* border: 1px solid blue; */
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 600;
+        color: #484a4b;
+        /* text-align: center; */
+        margin: 0px;
+    }
+    .we-love-text-area .we-love-text2{
+        /* border: 1px solid red; */
+        font-size: 17px;
+        color: #7e633e;
+        /* width: 80%; */
+        font-weight: 400;
+        margin-top: 10px;
+    }
+ 
+    
+}

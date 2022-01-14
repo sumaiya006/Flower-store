@@ -1,0 +1,251 @@
+.subs-section{
+    /* border: 1px solid red; */
+    padding: 80px 0px;
+    background: url(../images/Background.png);
+}
+.subs-section .subs-section-title{
+    text-align: center;
+}
+.subs-section-title .titel-text1{
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
+    color: #484a4b;
+    margin: 0px;
+}
+.subs-section-title .title-text{
+    /* border: 1px solid orange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subs-section-title .title-text .titel-text2{
+    /* border: 1px solid red; */
+    width:50%;
+    font-size: 18px;
+    font-weight: 500;
+    color: #7e633e;
+    margin: 0px;
+}
+.inner-subs-section{
+    /* border: 1px solid blue; */
+}
+.inner-subs-section .subs-form{
+    /* border: 1px solid lime; */
+    margin-top: 30px;
+}
+.inner-subs-section .subs-form input{
+    border: 1px solid rgb(196, 196, 196);
+    margin: 0px 0px 25px 0px;
+    width: 100%;
+    padding: 10px 0px 10px 25px;
+}
+.inner-subs-section .subs-form input:hover{
+    border: 1px solid rgb(196, 196, 196);
+}
+.inner-subs-section .subs-form input:focus{
+    border: 1px solid rgb(196, 196, 196);
+}
+.inner-subs-section .subs-form textarea{
+    border: 1px solid rgb(196, 196, 196);
+    width: 100%;
+    padding: 10px 0px 0px 25px;
+}
+.inner-subs-section .subs-form .button{
+    /* border: 1px solid blue; */
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    
+}
+.subs-form .button .btn{
+    border: 2px solid #d58570;;
+    background: #d58570;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 100px;
+    padding: 5px 20px;
+}
+.subs-form .button .btn-light:hover, .subs-form .button .btn-light:focus{
+    background: #ebbfb5;
+    /* color: #7e633e ; */
+    border: 2px solid #d58570;
+}
+
+@media (min-width:279px) and (max-width:319px){
+    .subs-section{
+        /* border: 1px solid red; */
+        padding: 30px 0px;
+    }
+    .subs-section-title .titel-text1{
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+        color: #484a4b;
+    }
+    .subs-section-title .title-text .titel-text2{
+        width:100%;
+        font-size: 14px;
+        font-weight: 500;
+        color: #7e633e;
+        padding: 0px 5px;
+    }
+    .inner-subs-section .subs-form{
+        /* border: 1px solid lime; */
+        margin-top: 25px;
+    }
+    .inner-subs-section .subs-form input{
+        margin: 0px 0px 15px 0px;
+    }
+    .subs-form .button .btn{
+        font-size: 12px;
+        font-weight: 600;
+      
+    }
+}
+
+
+@media (min-width:320px) and (max-width:545px){
+    .subs-section{
+        /* border: 1px solid red; */
+        padding: 30px 0px;
+    }
+    .subs-section-title .titel-text1{
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+        color: #484a4b;
+    }
+    .subs-section-title .title-text .titel-text2{
+        width: 100%;
+        font-size: 15px;
+        font-weight: 500;
+        color: #7e633e;
+    }
+    .inner-subs-section .subs-form{
+        /* border: 1px solid lime; */
+        margin-top: 25px;
+    }
+    .inner-subs-section .subs-form input{
+        margin: 0px 0px 15px 0px;
+    }
+    .subs-form .button .btn{
+        font-size: 12px;
+        font-weight: 600;
+      
+    }
+}
+
+
+@media (min-width:546px) and (max-width:767px){
+    .subs-section{
+        /* border: 1px solid red; */
+        padding: 30px 0px;
+    }
+    .subs-section-title .titel-text1{
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 600;
+        color: #484a4b;
+    }
+    .subs-section-title .title-text .titel-text2{
+        width: 80%;
+        font-size: 15px;
+        font-weight: 500;
+        color: #7e633e;
+    }
+    .inner-subs-section .subs-form{
+        /* border: 1px solid lime; */
+        margin-top: 30px;
+    }
+    .inner-subs-section .subs-form input{
+        margin: 0px 0px 15px 0px;
+    }
+    .subs-form .button .btn{
+        font-size: 12px;
+        font-weight: 600;
+      
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+    .subs-section{
+        /* border: 1px solid red; */
+        padding: 30px 0px;
+    }
+    .subs-section-title .titel-text1{
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 600;
+        color: #484a4b;
+    }
+    .subs-section-title .title-text .titel-text2{
+        width: 71%;
+        font-size: 15px;
+        font-weight: 500;
+        color: #7e633e;
+       
+    }
+    .inner-subs-section .subs-form{
+        /* border: 1px solid lime; */
+        margin-top: 30px;
+    }
+    .inner-subs-section .subs-form input{
+        margin: 0px 0px 15px 0px;
+    }
+    .subs-form .button .btn{
+        font-size: 12px;
+        font-weight: 600;
+      
+    }
+}
+@media (min-width:993px) and (max-width:1023px){
+    .subs-section{
+        /* border: 1px solid red; */
+        padding: 30px 0px;
+    }
+    .subs-section-title .titel-text1{
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 600;
+        color: #484a4b;
+    }
+    .subs-section-title .title-text .titel-text2{
+        width: 60%;
+        font-size: 16px;
+        font-weight: 500;
+        color: #7e633e;
+    }
+    .inner-subs-section .subs-form{
+        /* border: 1px solid lime; */
+        margin-top: 30px;
+    }
+    .inner-subs-section .subs-form input{
+        margin: 0px 0px 15px 0px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1075px){
+    .subs-section{
+        /* border: 1px solid red; */
+        padding: 30px 0px;
+    }
+    .subs-section-title .titel-text1{
+        font-size: 45px;
+        line-height: 55px;
+        font-weight: 600;
+        color: #484a4b;
+    }
+    .subs-section-title .title-text .titel-text2{
+        width: 70%;
+        font-size: 18px;
+        font-weight: 500;
+        color: #7e633e;
+    }
+    .inner-subs-section .subs-form{
+        /* border: 1px solid lime; */
+        margin-top: 30px;
+    }
+    .inner-subs-section .subs-form input{
+        margin: 0px 0px 15px 0px;
+    }
+}

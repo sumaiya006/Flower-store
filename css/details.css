@@ -1,0 +1,268 @@
+.details-section{
+    /* border: 1px solid red; */
+    padding: 80px 0px;
+    background: url(../images/Background.png);
+}
+.details-section .inner-details-section{
+    /* border: 1px solid blue; */
+    margin: 0px;
+    padding: 0px;
+}
+
+.inner-details-section .details-text-area{
+    /* border: 1px solid orange; */
+    padding: 200px 40px 30px 0px;
+}
+.details-text-area .details-text1{
+    /* border: 1px solid blue; */
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #484a4b;
+    /* width: 70%; */
+    
+
+}
+.details-text-area .details-text2{
+    /* border: 1px solid red; */
+    font-size: 20px;
+    color: #7e633e;
+    /* width: 80%; */
+    font-weight: 400;
+}
+
+.details-text-area .btn{
+    font-size: 12px;
+    font-weight: 700;
+    background: #454545;
+    color: #fff;
+    border-radius: 30px;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}
+.details-text-area .btn-light:hover, .details-text-area .btn-light:focus{
+    background: transparent;
+    color: #7e633e ;
+}
+.inner-details-section .details-image-box{
+    /* border: 1px solid aqua; */
+}
+.inner-details-section .details-image-box img{
+    /* border: 1px solid aqua; */
+    width: 100%;
+}
+.extra-details{
+    display: none;
+}
+
+@media (min-width:279px) and (max-width:319px){
+    .main-details{
+        display: none;
+    }
+    .extra-details{
+        display:block;
+    }
+    
+    .details-section{
+        padding: 10px 0px;
+        background: url(../images/Background.png);
+    }
+    .inner-details-section .details-text-area{
+        padding: 20px 10px 10px 10px;
+        text-align: center;
+    }
+    .details-text-area .details-text1{
+        /* border: 1px solid blue; */
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+        color: #484a4b;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+    }
+    .details-text-area .details-text2{
+        /* border: 1px solid red; */
+        font-size: 16px;
+        color: #7e633e;
+        /* width: 80%; */
+        font-weight: 400;
+        margin-top: 10px;
+    }
+ 
+    
+}
+
+@media (min-width:320px) and (max-width:480px){
+    .main-details{
+        display: none;
+    }
+    .extra-details{
+        display:block;
+    }
+    .details-section{
+        padding: 30px 0px;
+        background: url(../images/Background.png);
+    }
+    .inner-details-section .details-text-area{
+       
+        padding: 20px 10px 10px 10px;
+        text-align: center;
+    }
+    .details-text-area .details-text1{
+        /* border: 1px solid blue; */
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+        color: #484a4b;
+        text-align: center;
+        margin: 0px;
+    }
+    .details-text-area .details-text2{
+        /* border: 1px solid red; */
+        font-size: 16px;
+        color: #7e633e;
+        /* width: 80%; */
+        font-weight: 400;
+        margin-top: 10px;
+    }
+ 
+    
+}
+@media (min-width:481px) and (max-width:767px){
+    .main-details{
+        display: none;
+    }
+    .extra-details{
+        display:block;
+    }
+    .details-section{
+        padding: 30px 0px;
+        background: url(../images/Background.png);
+    }
+    .inner-details-section .details-text-area{
+        padding: 20px 10px 10px 10px;
+        text-align: center;
+    }
+    .details-text-area .details-text1{
+        /* border: 1px solid blue; */
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 600;
+        color: #484a4b;
+        text-align: center;
+        margin: 0px;
+    }
+    .details-text-area .details-text2{
+        /* border: 1px solid red; */
+        font-size: 16px;
+        color: #7e633e;
+        /* width: 80%; */
+        font-weight: 400;
+        margin-top: 10px;
+    }
+ 
+    
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .main-details{
+        display: none;
+    }
+    .extra-details{
+        display:block;
+    }
+    .details-section{
+        padding: 30px 0px;
+        background: url(../images/Background.png);
+    }
+    .inner-details-section .details-text-area{
+        padding: 50px 0px 10px 0px;
+        text-align: center;
+    }
+    .details-text-area .details-text1{
+        /* border: 1px solid blue; */
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 600;
+        color: #484a4b;
+        /* text-align: center; */
+        margin: 0px;
+        width: 100%;
+       
+    }
+    .details-text-area .details-text2{
+        /* border: 1px solid red; */
+        font-size: 17px;
+        color: #7e633e;
+        /* width: 80%; */
+        font-weight: 400;
+        margin-top: 10px;
+    }
+ 
+    
+}
+
+
+@media (min-width:992px) and (max-width:1023px){
+    .main-details{
+        display:block;
+    }
+    .extra-details{
+        display:none;
+    }
+    .inner-details-section .details-text-area{
+        /* border: 1px solid blue; */
+        padding: 150px 20px 10px 20px;
+        /* text-align: center; */
+    }
+    .details-text-area .details-text1{
+        /* border: 1px solid blue; */
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 600;
+        color: #484a4b;
+        /* text-align: center; */
+        margin: 0px;
+    }
+    .details-text-area .details-text2{
+        /* border: 1px solid red; */
+        font-size: 17px;
+        color: #7e633e;
+        /* width: 80%; */
+        font-weight: 400;
+        margin-top: 10px;
+    }
+ 
+    
+}
+
+@media (min-width:1024px) and (max-width:1075px){
+    .main-details{
+        display:block;
+    }
+    .extra-details{
+        display:none;
+    }
+    .inner-details-section .details-text-area{
+        padding: 150px 30px 10px 0px;
+        /* text-align: center; */
+    }
+    .details-text-area .details-text1{
+        /* border: 1px solid blue; */
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 600;
+        color: #484a4b;
+        /* text-align: center; */
+        margin: 0px;
+    }
+    .details-text-area .details-text2{
+        /* border: 1px solid red; */
+        font-size: 17px;
+        color: #7e633e;
+        /* width: 80%; */
+        font-weight: 400;
+        margin-top: 10px;
+    }
+}
